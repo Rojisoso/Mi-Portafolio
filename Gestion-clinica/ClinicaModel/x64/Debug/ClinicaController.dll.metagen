@@ -1,0 +1,129 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ClinicaController, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly ClinicaModel, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ClinicaController.ClienteDB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[ClinicaModel.Cliente] ListDB : Public
+  Methods:
+    Persist(): PrivateScope, Public, HideBySig
+    Load(): PrivateScope, Public, HideBySig
+Class ClinicaController.PersonaDB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[ClinicaModel.Persona] ListDB : Public
+  Methods:
+    Persist(): PrivateScope, Public, HideBySig
+    LoadFromBinaryFile(): PrivateScope, Public, HideBySig
+    PersistCliente(): PrivateScope, Public, HideBySig
+    LoadCliente(): PrivateScope, Public, HideBySig
+Class ClinicaController.MedicamentoDB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[ClinicaModel.Medicamentos] ListDB : Public
+  Methods:
+    Persist(): PrivateScope, Public, HideBySig
+    Load(): PrivateScope, Public, HideBySig
+Class ClinicaController.MedicoDB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[ClinicaModel.Medico] ListDB : Public
+  Methods:
+    Persist(): PrivateScope, Public, HideBySig
+    Load(): PrivateScope, Public, HideBySig
+Class ClinicaController.RecepcionDB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[ClinicaModel.Recepcion] ListDB : Public
+  Methods:
+    Persist(): PrivateScope, Public, HideBySig
+    Load(): PrivateScope, Public, HideBySig
+Class TipoMedicoDB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[ClinicaModel.TipoMedico] ListDB : Public
+Class TipoGeneroDB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[ClinicaModel.TipoGenero] ListDB : Public
+Class ClinicaController.DBController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ValidateUser(String, String): PrivateScope, Public, Static, HideBySig
+    ValidateCliente(String, String): PrivateScope, Public, Static, HideBySig
+    ValidateMedico(String, String): PrivateScope, Public, Static, HideBySig
+    AddPersona(Persona): PrivateScope, Public, Static, HideBySig
+    UpdatePersona(Persona): PrivateScope, Public, Static, HideBySig
+    DeletePersona(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllPersonas(): PrivateScope, Public, Static, HideBySig
+    QueryPersonaByID(Int32): PrivateScope, Public, Static, HideBySig
+    AddCliente(Cliente): PrivateScope, Public, Static, HideBySig
+    UpdateCliente(Cliente): PrivateScope, Public, Static, HideBySig
+    DeleteCliente(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllClientes(): PrivateScope, Public, Static, HideBySig
+    QueryClienteByID(Int32): PrivateScope, Public, Static, HideBySig
+    AddMedicamento(Medicamentos): PrivateScope, Public, Static, HideBySig
+    UpdateMedicamento(Medicamentos): PrivateScope, Public, Static, HideBySig
+    DeleteMedicamento(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllMedicamentos(): PrivateScope, Public, Static, HideBySig
+    QueryMedicamentoByID(Int32): PrivateScope, Public, Static, HideBySig
+    AddMedico(Medico): PrivateScope, Public, Static, HideBySig
+    UpdateMedico(Medico): PrivateScope, Public, Static, HideBySig
+    DeleteMedico(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllMedicos(): PrivateScope, Public, Static, HideBySig
+    QueryMedicoByID(Int32): PrivateScope, Public, Static, HideBySig
+    AddRecepcion(Recepcion): PrivateScope, Public, Static, HideBySig
+    UpdateRecepcion(Recepcion): PrivateScope, Public, Static, HideBySig
+    DeleteRecepcion(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllRecepcions(): PrivateScope, Public, Static, HideBySig
+    QueryRecepcionByID(Int32): PrivateScope, Public, Static, HideBySig
+    LoadTipoMedico(): PrivateScope, Public, Static, HideBySig
+    QueryAllTipoMedicos(): PrivateScope, Public, Static, HideBySig
+    SaveTipoMedico(): PrivateScope, Public, Static, HideBySig
+    LoadTipoGenero(): PrivateScope, Public, Static, HideBySig
+    QueryAllTipoGeneros(): PrivateScope, Public, Static, HideBySig
+    SaveTipoGenero(): PrivateScope, Public, Static, HideBySig
+    Init(): PrivateScope, Public, Static, HideBySig
+Class ClinicaController.ClinicaManager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ValidateUser(String, String): PrivateScope, Public, Static, HideBySig
+    ValidateCliente(String, String): PrivateScope, Public, Static, HideBySig
+    ValidateMedico(String, String): PrivateScope, Public, Static, HideBySig
+    QueryAllTipoMedicos(): PrivateScope, Public, Static, HideBySig
+    QueryAllTipoGeneros(): PrivateScope, Public, Static, HideBySig
+    AddPersona(Persona): PrivateScope, Public, Static, HideBySig
+    UpdatePersona(Persona): PrivateScope, Public, Static, HideBySig
+    DeletePersona(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllPersonas(): PrivateScope, Public, Static, HideBySig
+    QueryPersonaByID(Int32): PrivateScope, Public, Static, HideBySig
+    AddCliente(Cliente): PrivateScope, Public, Static, HideBySig
+    UpdateCliente(Cliente): PrivateScope, Public, Static, HideBySig
+    DeleteCliente(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllClientes(): PrivateScope, Public, Static, HideBySig
+    QueryClienteByID(Int32): PrivateScope, Public, Static, HideBySig
+    AddRecepcion(Recepcion): PrivateScope, Public, Static, HideBySig
+    UpdateRecepcion(Recepcion): PrivateScope, Public, Static, HideBySig
+    DeleteRecepcion(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllRecepcions(): PrivateScope, Public, Static, HideBySig
+    QueryRecepcionByID(Int32): PrivateScope, Public, Static, HideBySig
+    AddMedicamento(Medicamentos): PrivateScope, Public, Static, HideBySig
+    UpdateMedicamento(Medicamentos): PrivateScope, Public, Static, HideBySig
+    DeleteMedicamento(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllMedicamentos(): PrivateScope, Public, Static, HideBySig
+    QueryMedicamentoByID(Int32): PrivateScope, Public, Static, HideBySig
+    AddMedico(Medico): PrivateScope, Public, Static, HideBySig
+    UpdateMedico(Medico): PrivateScope, Public, Static, HideBySig
+    DeleteMedico(Int32): PrivateScope, Public, Static, HideBySig
+    QueryAllMedicos(): PrivateScope, Public, Static, HideBySig
+    QueryMedicoByID(Int32): PrivateScope, Public, Static, HideBySig

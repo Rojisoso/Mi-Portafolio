@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TipoGeneroDB xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ListDB>
+    <TipoGenero>
+      <tipo>Masculino</tipo>
+      <ID>1</ID>
+    </TipoGenero>
+    <TipoGenero>
+      <tipo>Femenino</tipo>
+      <ID>2</ID>
+    </TipoGenero>
+  </ListDB>
+</TipoGeneroDB>

@@ -1,0 +1,33 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  AtencionMedica.cpp
+  Cita.cpp
+  Cliente.cpp
+  Clinica.cpp
+  ClinicaModel.cpp
+  ComprobanteCita.cpp
+  ComprobanteReceta.cpp
+  ComprobanteServicio.cpp
+  DetalleComprobante.cpp
+  DisponibilidadMedico.cpp
+  Empleados.cpp
+  Farmacia.cpp
+  HistorialClinico.cpp
+  Medicamentos.cpp
+  Medico.cpp
+  MedioPago.cpp
+  Persona.cpp
+  Recepcion.cpp
+  Receta.cpp
+  Generando código...
+  Compilando...
+  Reclamo.cpp
+  RespuestaReclamo.cpp
+  ServiciosClinica.cpp
+  TipoGenero.cpp
+  TipoMedico.cpp
+  Triaje.cpp
+  Generando código...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  ClinicaModel.vcxproj -> C:\Users\Luis\Desktop\PROYECTO\ClinicaModel\x64\Debug\ClinicaModel.dll

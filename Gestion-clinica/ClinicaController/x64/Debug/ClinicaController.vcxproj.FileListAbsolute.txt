@@ -1,0 +1,2 @@
+C:\Users\Luis\Desktop\PROYECTO\ClinicaController\x64\Debug\ClinicaController.vcxproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\PROYECTO\ClinicaController\x64\Debug\ClinicaController.vcxproj.CopyComplete

@@ -1,0 +1,14 @@
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.vcxproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.AdminMainForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.ClinicaMainForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.CrearUsuarioForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.LoginForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.MedicamentosForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.MedicoForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.MedicoSearchForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.PersonaForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.RecepcionForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.ReservarCitaForm.resources
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.vcxproj.GenerateResource.cache
+C:\Users\Luis\Desktop\PROYECTO\ClinicaView\x64\Debug\ClinicaView.vcxproj.CopyComplete

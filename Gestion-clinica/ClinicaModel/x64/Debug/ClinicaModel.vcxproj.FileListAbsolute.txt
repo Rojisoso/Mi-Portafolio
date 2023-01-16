@@ -1,0 +1,2 @@
+C:\Users\Luis\Desktop\PROYECTO\ClinicaModel\x64\Debug\ClinicaModel.vcxproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\PROYECTO\ClinicaModel\x64\Debug\ClinicaModel.dll

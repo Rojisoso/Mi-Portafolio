@@ -1,0 +1,91 @@
+  ClinicaView.AdminMainForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.ClinicaMainForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.CrearUsuarioForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.LoginForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.MedicamentosForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.MedicoForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.MedicoSearchForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.PersonaForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.RecepcionForm.resources - Embedded, ContainedInManifestFile, 
+  ClinicaView.ReservarCitaForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ClinicaView, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly ClinicaController, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Assembly ClinicaModel, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly ClinicaController, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=None, flags=None
+Class ClinicaView.MedicamentosForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ClearControls(): PrivateScope, Public, HideBySig
+Class ClinicaView.PersonaForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ClearControls(): PrivateScope, Public, HideBySig
+Class ClinicaView.MedicoForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ClearControls(): PrivateScope, Public, HideBySig
+Class ClinicaView.RecepcionForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ClearControls(): PrivateScope, Public, HideBySig
+Class ClinicaView.AdminMainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ClinicaView.ClienteMainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ClinicaView.CrearUsuarioForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ClinicaView.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ClinicaModel.Persona user 'get set' : 
+  Methods:
+    get_user(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_user(Persona): PrivateScope, Public, Static, HideBySig, SpecialName
+Class ClinicaView.MedicoMainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ClinicaView.ClinicaMainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ClinicaModel.Persona user 'get set' : 
+    ClinicaModel.Medico medico 'get set' : 
+    ClinicaModel.Cliente cliente 'get set' : 
+  Methods:
+    get_cliente(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_cliente(Cliente): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_medico(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_medico(Medico): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_user(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_user(Persona): PrivateScope, Public, Static, HideBySig, SpecialName
+Class ClinicaView.MedicoSearchForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ClinicaView.ReservarCitaForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

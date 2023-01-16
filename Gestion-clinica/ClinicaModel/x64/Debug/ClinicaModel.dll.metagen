@@ -1,0 +1,370 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ClinicaModel, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ClinicaModel.Cita: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, Int32, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String horario 'get set' : 
+    Int32 codigoPaciente 'get set' : 
+    Int32 codigoDoctor 'get set' : 
+    System.String precio 'get set' : 
+    System.String fecha 'get set' : 
+    Int32 codigoCita 'get set' : 
+  Methods:
+    get_codigoCita(): PrivateScope, Public, HideBySig, SpecialName
+    set_codigoCita(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_fecha(): PrivateScope, Public, HideBySig, SpecialName
+    set_fecha(String): PrivateScope, Public, HideBySig, SpecialName
+    get_precio(): PrivateScope, Public, HideBySig, SpecialName
+    set_precio(String): PrivateScope, Public, HideBySig, SpecialName
+    get_codigoDoctor(): PrivateScope, Public, HideBySig, SpecialName
+    set_codigoDoctor(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_codigoPaciente(): PrivateScope, Public, HideBySig, SpecialName
+    set_codigoPaciente(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_horario(): PrivateScope, Public, HideBySig, SpecialName
+    set_horario(String): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Triaje: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, ClinicaModel.Cita): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 idTriaje : Public
+    System.String temperatura : Public
+    System.String peso : Public
+    System.String talla : Public
+    System.String tipoSangre : Public
+    System.String ritmoCardiaco : Public
+    ClinicaModel.Cita objCita : Public
+Class ClinicaModel.AtencionMedica: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String, System.String, System.String, ClinicaModel.Triaje): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ClinicaModel.Triaje objTriaje 'get set' : 
+    System.String tratamiento 'get set' : 
+    System.String obsMedicas 'get set' : 
+    System.String obsPaciente 'get set' : 
+    System.String fecha 'get set' : 
+    System.String idEspecialidad 'get set' : 
+    System.String idEmpleado 'get set' : 
+  Methods:
+    get_idEmpleado(): PrivateScope, Public, HideBySig, SpecialName
+    set_idEmpleado(String): PrivateScope, Public, HideBySig, SpecialName
+    get_idEspecialidad(): PrivateScope, Public, HideBySig, SpecialName
+    set_idEspecialidad(String): PrivateScope, Public, HideBySig, SpecialName
+    get_fecha(): PrivateScope, Public, HideBySig, SpecialName
+    set_fecha(String): PrivateScope, Public, HideBySig, SpecialName
+    get_obsPaciente(): PrivateScope, Public, HideBySig, SpecialName
+    set_obsPaciente(String): PrivateScope, Public, HideBySig, SpecialName
+    get_obsMedicas(): PrivateScope, Public, HideBySig, SpecialName
+    set_obsMedicas(String): PrivateScope, Public, HideBySig, SpecialName
+    get_tratamiento(): PrivateScope, Public, HideBySig, SpecialName
+    set_tratamiento(String): PrivateScope, Public, HideBySig, SpecialName
+    get_objTriaje(): PrivateScope, Public, HideBySig, SpecialName
+    set_objTriaje(Triaje): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Persona: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String genero 'get set' : 
+    System.String contrasenha 'get set' : 
+    Int32 idPersona 'get set' : 
+    System.String fechaNacimiento 'get set' : 
+    System.String telefono 'get set' : 
+    System.String correo 'get set' : 
+    System.String DNI 'get set' : 
+    System.String apellidoMaterno 'get set' : 
+    System.String apellidoPaterno 'get set' : 
+    System.String nombre 'get set' : 
+    Int32 codigo 'get set' : 
+  Methods:
+    get_codigo(): PrivateScope, Public, HideBySig, SpecialName
+    set_codigo(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_nombre(): PrivateScope, Public, HideBySig, SpecialName
+    set_nombre(String): PrivateScope, Public, HideBySig, SpecialName
+    get_apellidoPaterno(): PrivateScope, Public, HideBySig, SpecialName
+    set_apellidoPaterno(String): PrivateScope, Public, HideBySig, SpecialName
+    get_apellidoMaterno(): PrivateScope, Public, HideBySig, SpecialName
+    set_apellidoMaterno(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DNI(): PrivateScope, Public, HideBySig, SpecialName
+    set_DNI(String): PrivateScope, Public, HideBySig, SpecialName
+    get_correo(): PrivateScope, Public, HideBySig, SpecialName
+    set_correo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_telefono(): PrivateScope, Public, HideBySig, SpecialName
+    set_telefono(String): PrivateScope, Public, HideBySig, SpecialName
+    get_fechaNacimiento(): PrivateScope, Public, HideBySig, SpecialName
+    set_fechaNacimiento(String): PrivateScope, Public, HideBySig, SpecialName
+    get_idPersona(): PrivateScope, Public, HideBySig, SpecialName
+    set_idPersona(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_contrasenha(): PrivateScope, Public, HideBySig, SpecialName
+    set_contrasenha(String): PrivateScope, Public, HideBySig, SpecialName
+    get_genero(): PrivateScope, Public, HideBySig, SpecialName
+    set_genero(String): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Cliente: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :ClinicaModel.Persona
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, System.String, System.String, Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Seguro 'get set' : 
+    System.String FechaRegistro 'get set' : 
+    Int32 IDcliente 'get set' : 
+  Methods:
+    get_IDcliente(): PrivateScope, Public, HideBySig, SpecialName
+    set_IDcliente(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_FechaRegistro(): PrivateScope, Public, HideBySig, SpecialName
+    set_FechaRegistro(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Seguro(): PrivateScope, Public, HideBySig, SpecialName
+    set_Seguro(String): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Clinica: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String, System.Collections.Generic.List`1[ClinicaModel.Cita]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[ClinicaModel.Cita] listaCitas 'get set' : 
+    System.String telefono 'get set' : 
+    System.String ubicacion 'get set' : 
+    System.String ruc 'get set' : 
+    System.String fechaInauguracion 'get set' : 
+  Methods:
+    get_fechaInauguracion(): PrivateScope, Public, HideBySig, SpecialName
+    set_fechaInauguracion(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ruc(): PrivateScope, Public, HideBySig, SpecialName
+    set_ruc(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ubicacion(): PrivateScope, Public, HideBySig, SpecialName
+    set_ubicacion(String): PrivateScope, Public, HideBySig, SpecialName
+    get_telefono(): PrivateScope, Public, HideBySig, SpecialName
+    set_telefono(String): PrivateScope, Public, HideBySig, SpecialName
+    get_listaCitas(): PrivateScope, Public, HideBySig, SpecialName
+    set_listaCitas(List`1): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Class1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ClinicaModel.MedioPago: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, Double, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 codigo : Public
+    System.String tipo : Public
+    Double montoPago : Public
+    System.String fechaPago : Public
+Class ClinicaModel.ComprobanteCita: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, Double, System.String, ClinicaModel.MedioPago, ClinicaModel.Cita): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ClinicaModel.Cita fecha 'get set' : 
+    ClinicaModel.MedioPago objMedioPago 'get set' : 
+    System.String fechaRegistro 'get set' : 
+    Double montoTotal 'get set' : 
+    System.String tipoDocumento 'get set' : 
+    Int32 numeroDocumento 'get set' : 
+  Methods:
+    get_numeroDocumento(): PrivateScope, Public, HideBySig, SpecialName
+    set_numeroDocumento(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_tipoDocumento(): PrivateScope, Public, HideBySig, SpecialName
+    set_tipoDocumento(String): PrivateScope, Public, HideBySig, SpecialName
+    get_montoTotal(): PrivateScope, Public, HideBySig, SpecialName
+    set_montoTotal(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_fechaRegistro(): PrivateScope, Public, HideBySig, SpecialName
+    set_fechaRegistro(String): PrivateScope, Public, HideBySig, SpecialName
+    get_objMedioPago(): PrivateScope, Public, HideBySig, SpecialName
+    set_objMedioPago(MedioPago): PrivateScope, Public, HideBySig, SpecialName
+    get_fecha(): PrivateScope, Public, HideBySig, SpecialName
+    set_fecha(Cita): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.ComprobanteServicio: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, Double, System.String, ClinicaModel.MedioPago): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ClinicaModel.Cita fecha 'get set' : 
+    ClinicaModel.MedioPago objMedioPago 'get set' : 
+    System.String fechaRegistro 'get set' : 
+    Double montoTotal 'get set' : 
+    System.String tipoDocumento 'get set' : 
+    Int32 numeroDocumento 'get set' : 
+  Methods:
+    get_numeroDocumento(): PrivateScope, Public, HideBySig, SpecialName
+    set_numeroDocumento(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_tipoDocumento(): PrivateScope, Public, HideBySig, SpecialName
+    set_tipoDocumento(String): PrivateScope, Public, HideBySig, SpecialName
+    get_montoTotal(): PrivateScope, Public, HideBySig, SpecialName
+    set_montoTotal(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_fechaRegistro(): PrivateScope, Public, HideBySig, SpecialName
+    set_fechaRegistro(String): PrivateScope, Public, HideBySig, SpecialName
+    get_objMedioPago(): PrivateScope, Public, HideBySig, SpecialName
+    set_objMedioPago(MedioPago): PrivateScope, Public, HideBySig, SpecialName
+    get_fecha(): PrivateScope, Public, HideBySig, SpecialName
+    set_fecha(Cita): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.DetalleComprobante: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String cantidad 'get set' : 
+    Int32 precioUnitario 'get set' : 
+  Methods:
+    get_precioUnitario(): PrivateScope, Public, HideBySig, SpecialName
+    set_precioUnitario(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_cantidad(): PrivateScope, Public, HideBySig, SpecialName
+    set_cantidad(String): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.DisponibilidadMedico: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String horaInicio : Public
+    System.String horaFin : Public
+Class ClinicaModel.Empleados: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :ClinicaModel.Persona
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, System.String, System.String, System.String, Int32, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String fechaFin 'get set' : 
+    System.String cargo 'get set' : 
+    System.String gradoAcademico 'get set' : 
+    System.String seguro 'get set' : 
+    Int32 salario 'get set' : 
+    System.String fechaInicio 'get set' : 
+  Methods:
+    get_fechaInicio(): PrivateScope, Public, HideBySig, SpecialName
+    set_fechaInicio(String): PrivateScope, Public, HideBySig, SpecialName
+    get_salario(): PrivateScope, Public, HideBySig, SpecialName
+    set_salario(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_seguro(): PrivateScope, Public, HideBySig, SpecialName
+    set_seguro(String): PrivateScope, Public, HideBySig, SpecialName
+    get_gradoAcademico(): PrivateScope, Public, HideBySig, SpecialName
+    set_gradoAcademico(String): PrivateScope, Public, HideBySig, SpecialName
+    get_cargo(): PrivateScope, Public, HideBySig, SpecialName
+    set_cargo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_fechaFin(): PrivateScope, Public, HideBySig, SpecialName
+    set_fechaFin(String): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Medicamentos: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(Int32, System.String, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 precio 'get set' : 
+    Int32 stock 'get set' : 
+    System.String nombre 'get set' : 
+    Int32 IDmedicamento 'get set' : 
+  Methods:
+    get_IDmedicamento(): PrivateScope, Public, HideBySig, SpecialName
+    set_IDmedicamento(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_nombre(): PrivateScope, Public, HideBySig, SpecialName
+    set_nombre(String): PrivateScope, Public, HideBySig, SpecialName
+    get_stock(): PrivateScope, Public, HideBySig, SpecialName
+    set_stock(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_precio(): PrivateScope, Public, HideBySig, SpecialName
+    set_precio(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Farmacia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 idEmpleado 'get set' : 
+    System.String proveedor 'get set' : 
+    System.String inventario 'get set' : 
+    System.String especialista 'get set' : 
+    System.String encargado 'get set' : 
+  Methods:
+    get_encargado(): PrivateScope, Public, HideBySig, SpecialName
+    set_encargado(String): PrivateScope, Public, HideBySig, SpecialName
+    get_especialista(): PrivateScope, Public, HideBySig, SpecialName
+    set_especialista(String): PrivateScope, Public, HideBySig, SpecialName
+    get_inventario(): PrivateScope, Public, HideBySig, SpecialName
+    set_inventario(String): PrivateScope, Public, HideBySig, SpecialName
+    get_proveedor(): PrivateScope, Public, HideBySig, SpecialName
+    set_proveedor(String): PrivateScope, Public, HideBySig, SpecialName
+    get_idEmpleado(): PrivateScope, Public, HideBySig, SpecialName
+    set_idEmpleado(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.HistorialClinico: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 IDhistorial : Public
+    System.String area : Public
+    System.String fechaRegistro : Public
+    System.String motivoConsulta : Public
+    System.String IDdoctor : Public
+Class ClinicaModel.Medico: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :ClinicaModel.Empleados
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Especializacion 'get set' : 
+    Int32 IDmedico 'get set' : 
+  Methods:
+    get_IDmedico(): PrivateScope, Public, HideBySig, SpecialName
+    set_IDmedico(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Especializacion(): PrivateScope, Public, HideBySig, SpecialName
+    set_Especializacion(String): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Recepcion: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :ClinicaModel.Empleados
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, System.String, System.String, System.String, Int32, System.String, System.String, System.String, Int32, System.String, System.String, System.String, System.String, Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String HorarioAtencion 'get set' : 
+    System.String Tipo 'get set' : 
+    Int32 IDrecepcion 'get set' : 
+  Methods:
+    get_IDrecepcion(): PrivateScope, Public, HideBySig, SpecialName
+    set_IDrecepcion(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Tipo(): PrivateScope, Public, HideBySig, SpecialName
+    set_Tipo(String): PrivateScope, Public, HideBySig, SpecialName
+    get_HorarioAtencion(): PrivateScope, Public, HideBySig, SpecialName
+    set_HorarioAtencion(String): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Receta: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 IDreceta 'get set' : 
+    System.String descripcion 'get set' : 
+    System.String analisis 'get set' : 
+    System.String examenesMedicos 'get set' : 
+  Methods:
+    get_examenesMedicos(): PrivateScope, Public, HideBySig, SpecialName
+    set_examenesMedicos(String): PrivateScope, Public, HideBySig, SpecialName
+    get_analisis(): PrivateScope, Public, HideBySig, SpecialName
+    set_analisis(String): PrivateScope, Public, HideBySig, SpecialName
+    get_descripcion(): PrivateScope, Public, HideBySig, SpecialName
+    set_descripcion(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IDreceta(): PrivateScope, Public, HideBySig, SpecialName
+    set_IDreceta(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.Reclamo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String, ClinicaModel.Cliente): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 codigoReclamo : Public
+    System.String fecha : Public
+    System.String descripcion : Public
+    System.String estado : Public
+    ClinicaModel.Cliente objpaciente : Public
+Class ClinicaModel.RespuestaReclamo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 idReclamo : Public
+    System.String respuesta : Public
+Class ClinicaModel.ServiciosClinica: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32, ClinicaModel.Empleados): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 precio : Public
+    Int32 idServicio : Public
+    ClinicaModel.Empleados objEmpleados : Public
+Class ClinicaModel.TipoGenero: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String tipo 'get set' : 
+    Int32 ID   'get set' : 
+  Methods:
+    get_ID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ID(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_tipo(): PrivateScope, Public, HideBySig, SpecialName
+    set_tipo(String): PrivateScope, Public, HideBySig, SpecialName
+Class ClinicaModel.TipoMedico: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String tipo 'get set' : 
+    Int32 ID   'get set' : 
+  Methods:
+    get_ID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ID(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_tipo(): PrivateScope, Public, HideBySig, SpecialName
+    set_tipo(String): PrivateScope, Public, HideBySig, SpecialName
