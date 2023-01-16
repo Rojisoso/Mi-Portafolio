@@ -1,1 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=egde">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!--Titulo-->
+  <title>Luis Vienrich | Developer</title>
+
+
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+
+<!--Menu Encabezado-->
+  <div class="contenedor-header">
+    <header>
+        <div class="logo">
+          <a href="#">Rojisoso</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home" onclick="seleccionar()">Home</a></li>
+            <li><a href="#aboutme" onclick="seleccionar()">About me</a></li>
+            <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+            <li><a href="#cv" onclick="seleccionar()">CV</a></li>
+            <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+            <li><a href="#contact" onclick="seleccionar()">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarocultarmenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+  </div>
+
+<!--Seccion Home-->
+<section id="home" class="home">
+  <div class="contenido-banner">
+    <div class="contenedor-img">
+      <img src="Imagenes/Gatito.png" alt=""
+    </div>
+    <h1>Luis Vienrich</h1>
+    <h2>Jr Developer</h2>
+    <div class="redes">
+      <a href="https://github.com/Rojisoso"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/luisvienrich/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://twitter.com/lvrojisoso"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+  </div>
+</section>
+
+<!--About me-->
+<section id="aboutme" class="aboutme">
+  <div class="contenido-seccion">
+    <h2>About me</h2>
+    <p><span>Hola, soy Luis Vienrich.</span><span> Soy una persona responsable, comprometida y con muchas ganas de aprender, preparado para asumir nuevos retos con el fin de mejorar cada día</span></p>
+
+    <div class="fila">
+      <!--datos personales-->
+      <div class="col">
+        <h3>Datos Personales</h3>
+        <ul>
+          <li>
+            <strong>Correo</strong>
+            a20172501@pucp.edu.pe
+          </li>
+          <li>
+            <strong>Teléfono</strong>
+            +51 965901695
+          </li>
+          <li>
+            <strong>Página Web</strong>
+            Rojisoso.github.io
+          </li>
+        </ul>
+      </div>
+
+      <!--intereses-->
+      <div class="col">
+        <h3>Intereses</h3>
+        <div class="contenedor-intereses">
+          <div class="interes">
+            <i class="fa-solid fa-ghost"></i>
+            <span>Juegos</span>
+          </div>
+          <div class="interes">
+            <i class="fa-solid fa-futbol"></i>
+            <span>Fútbol</span>
+          </div>
+          <div class="interes">
+            <i class="fa-solid fa-music"></i>
+            <span>Música</span>
+          </div>
+          <div class="interes">
+            <i class="fa-brands fa-apple"></i>
+            <span>Apple</span>
+          </div>
+          <div class="interes">
+            <i class="fa-solid fa-car"></i>
+            <span>Autos</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <button>
+      Descargar CV<i class="fa-solid fa-download"></i>
+      <span class="overlay"></span>
+    </button>
+  </div>
+</section>
+
+<!--Skills-->
+<section class="skills" id="skills">
+  <div class="contenido-seccion">
+    <h2>Skills</h2>
+    <div class="fila">
+      <div class="col">
+        <h3>Professional Skills</h3>
+        <div class="skill">
+          <span>Swift</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>85%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>SwiftUI</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Python</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>C</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>90%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>C++</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>90%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>C#</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>75%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Objective-C</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>HTML & CSS</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>MySQL</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>60%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!--CV-->
+<section id="cv" class="cv">
+  <div class="contenido-seccion">
+    <h2>Curriculum</h2>
+    <div class="fila">
+
+      <div class="col-izquierda">
+        <h3>Educación</h3>
+        <div class="item-izq">
+          <h4>Ingeniería Mecatrónica</h4>
+          <span class="casa">Pontificia Universidad Católica del Perú</span>
+          <span class="fecha">2017-act</span>
+          <p>Description</p>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+        <div class="item-izq">
+          <h4>Swift</h4>
+          <span class="casa">Udemy</span>
+          <span class="fecha">2023</span>
+          <p>Description</p>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+        <div class="item-izq">
+          <h4>Basic Image Classification with TensorFlow</h4>
+          <span class="casa">Coursera</span>
+          <span class="fecha">2023</span>
+          <p>Description</p>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-derecha">
+        <!--Trabajos-->
+        <h3>Experiencia Laboral</h3>
+        <div class="item-der">
+          <h4>Técnico en cámaras de seguridad</h4>
+          <span class="casa">MZ Security</span>
+          <span class="fecha">04/2021 - 08/2022</span>
+          <p>Instalación de cámaras de seguridad CCTV, configuración del sistema para casas o plantas de operación, verificar el mantenimiento y funcionamiento de las cámaras y equipos.</p>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--PORTFOLIO-->
+<section id="portfolio" class="portfolio">
+  <h2>PORTFOLIO</h2>
+  <div class="galeria">
+    <div class="proyecto">
+      <img src="Imagenes/ioscalculator.jpeg" alt="">
+      <div class="overlay">
+        <h3>iOS Calculator on iPad</h3>
+        <p>Swift</p>
+      </div>
+    </div>
+    <div class="proyecto">
+      <img src="Imagenes/paginaweb.png" alt="">
+      <div class="overlay">
+        <h3>Página Web</h3>
+        <p>HTML & CSS</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--CONTACT-->
+<section id="contact" class="contacto">
+  <div class="contenido-seccion">
+    <h2>CONTACT</h2>
+    <div class="fila">
+      <!--formulario-->
+      <div class="col">
+        <input type="text" placeholder="Tú nombre">
+        <input type="text" placeholder="Número de teléfono">
+        <input type="text" placeholder="email">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <button>Enviar<i class="fa-solid fa-envelope-circle-check"></i>
+        <span class="overlay"></span>
+        </button>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer>
+  <a href="#home" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+  </a>
+  <div class="redes">
+    <a href="https://github.com/Rojisoso"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/luisvienrich/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://twitter.com/lvrojisoso"><i class="fa-brands fa-twitter"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
