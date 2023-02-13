@@ -91,7 +91,7 @@ struct ContentView: View {
             
                 .navigationDestination(for: String.self) { View in
                     if View == "PasswordView"{
-                        PasswordView()
+                        PasswordView(nombre: "")
                     }
                 }
             }

@@ -19,8 +19,16 @@ struct PasswordRowView: View {
         
         HStack{
             VStack{
-                Text(self.name).font(.title)
-                Text(self.pass).font(.subheadline).foregroundColor(.gray)
+                HStack{
+                    Text(self.name).font(.title)
+                    Spacer()
+                }
+                HStack{
+                    Text("password:").font(.subheadline).foregroundColor(.gray)
+                    Text(self.pass).font(.subheadline).foregroundColor(.gray).lineLimit(1)
+                    Spacer()
+                }
+                
             }.padding(30)
             Spacer()
             

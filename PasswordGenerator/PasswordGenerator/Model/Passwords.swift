@@ -15,3 +15,11 @@ class Passwords : NSManagedObject, Identifiable{
     @NSManaged public var password: String
     
 }
+
+extension Passwords {
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Passwords> {
+        return NSFetchRequest<Passwords>(entityName: "Passwords")
+    }
+}
+
+

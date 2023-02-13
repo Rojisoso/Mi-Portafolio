@@ -7,16 +7,28 @@
 
 import SwiftUI
 import CoreData
+import FirebaseCore
+
+
+
 
 @main
 struct PasswordGeneratorApp: App {
+    
+    @Environment(\.scenePhase) var scenePhase
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     let persistenceContainer = PersistenceController.shared
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceContainer.container.viewContext)
+            NavigationView{
+                ContentView()
+                    .environment(\.managedObjectContext, persistenceContainer.container.viewContext)
+            }
+        }.onChange(of: scenePhase) { _ in
+            persistenceContainer.save()
         }
     }
 }
