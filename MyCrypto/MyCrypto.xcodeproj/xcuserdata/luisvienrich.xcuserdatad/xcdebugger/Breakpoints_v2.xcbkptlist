@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+<<<<<<< Updated upstream
    uuid = "8350256A-22D4-440E-92E3-97CC75083E75"
+=======
+<<<<<<< HEAD
+   uuid = "D795A4D6-148D-47F8-ACB1-1139ED352745"
+=======
+   uuid = "8350256A-22D4-440E-92E3-97CC75083E75"
+>>>>>>> 5549b039b926d4faef4fa64f468c3c04ed6276b4
+>>>>>>> Stashed changes
    type = "1"
    version = "2.0">
 </Bucket>
