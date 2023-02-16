@@ -22,6 +22,11 @@ struct HomeView: View {
                 
                 //HEADER
                 homeHeader
+                
+                //SEARCH BAR
+                SearchBarView(searchText: $vm.searchText)
+                
+                
                 //COLUMN TITLE
                 columnTitles
                 
