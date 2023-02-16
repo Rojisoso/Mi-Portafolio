@@ -36,6 +36,11 @@ struct PortfolioView: View {
                     trailingBarButton
                 }
             }
+            .onChange(of: vm.searchText, perform: { value in
+                if value == ""{
+                    RemoveSelectedCoin()
+                }
+            })
         }
         
     }
@@ -53,12 +58,13 @@ extension PortfolioView{
     private var CoinSelectView: some View{
         ScrollView(.horizontal,showsIndicators: true){
             LazyHStack(spacing: 10){
-                ForEach(vm.allCoins) { coin in
+                ForEach(vm.searchText.isEmpty ? vm.portfolioCoins : vm.allCoins) { coin in
                     CoinLogoView(coin: coin)
                         .frame(width: 75)
                         .onTapGesture {
                             withAnimation(.easeIn){
-                                selectedCoin = coin
+                                UpdateSelectedCoin(coin: coin)
+                                
                             }
                         }
                         .background(
@@ -71,6 +77,19 @@ extension PortfolioView{
         }
     }
     
+    private func UpdateSelectedCoin(coin: CoinModel) {
+        selectedCoin = coin
+        
+        if let portfolioCoin = vm.portfolioCoins.first(where: {$0.id == coin.id }),
+           let amount = portfolioCoin.currentHoldings {
+            quantity = String(amount)
+        } else {
+            quantity = ""
+        }
+        
+            
+        
+    }
     private func GetCurrentValue()->Double{
         
         if let quantity = Double(quantity){
@@ -127,8 +146,12 @@ extension PortfolioView{
     }
     
     private func SaveButtonPressed() {
-        guard let _ = selectedCoin else { return }
+        guard
+            let coin = selectedCoin,
+            let amount = Double(quantity)
+            else { return }
         //SAVE TO PORTFOLIO
+        vm.UpdatePortfolio(coin: coin, amount: amount)
         
         RemoveSelectedCoin()
         UIApplication.shared.EndEditing()
