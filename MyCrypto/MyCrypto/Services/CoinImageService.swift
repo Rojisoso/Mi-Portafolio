@@ -15,7 +15,7 @@ class CoinImageService {
     
     private let coin: CoinModel
     private var imageSub: AnyCancellable?
-   // private let filemanager = LocalFileManager.instace
+    private let filemanager = LocalFileManager.instace
     private let folderName = "coin_images"
     private let imageName: String
     init(coin: CoinModel) {
@@ -27,12 +27,12 @@ class CoinImageService {
     
     private func GetCoinImage(){
         
-       // if let savedimage = filemanager.GetImage(imageName: imageName, folderName: folderName){
-           // image = savedimage
-        //}
-        //else {
+        if let savedimage = filemanager.GetImage(imageName: imageName, folderName: folderName){
+            image = savedimage
+        }
+        else {
             DonwloadCoinImage()
-        //}
+        }
     }
     
     private func DonwloadCoinImage(){
@@ -48,7 +48,7 @@ class CoinImageService {
                     let downloadedImage = returnedImage else {return}
                 asd.image = downloadedImage
                 asd.imageSub?.cancel()
-               // asd.filemanager.SaveImages(image: downloadedImage, imageName: asd.imageName, folderName: asd.folderName)
+                asd.filemanager.SaveImages(image: downloadedImage, imageName: asd.imageName, folderName: asd.folderName)
             })
     }
 }

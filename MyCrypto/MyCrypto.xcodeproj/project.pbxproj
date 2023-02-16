@@ -25,6 +25,7 @@
 		13C432A8299DD6190085EDE5 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432A7299DD6190085EDE5 /* CoinRowView.swift */; };
 		13C432AA299DD6550085EDE5 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432A9299DD6550085EDE5 /* CoinImageViewModel.swift */; };
 		13C432AC299DD6A60085EDE5 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432AB299DD6A60085EDE5 /* CoinImageService.swift */; };
+		13C432AE299DD7390085EDE5 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432AD299DD7390085EDE5 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		13C432A7299DD6190085EDE5 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		13C432A9299DD6550085EDE5 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		13C432AB299DD6A60085EDE5 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
+		13C432AD299DD7390085EDE5 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				13C43292299DD4BE0085EDE5 /* NetManager.swift */,
 				13C43294299DD4D80085EDE5 /* CoinDataService.swift */,
 				13C432AB299DD6A60085EDE5 /* CoinImageService.swift */,
+				13C432AD299DD7390085EDE5 /* LocalFileManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				13C432A6299DD5F40085EDE5 /* CoinImageView.swift in Sources */,
 				13C4327F299DD3DB0085EDE5 /* ContentView.swift in Sources */,
 				13C4329E299DD55E0085EDE5 /* HomeViewModel.swift in Sources */,
+				13C432AE299DD7390085EDE5 /* LocalFileManager.swift in Sources */,
 				13C43293299DD4BE0085EDE5 /* NetManager.swift in Sources */,
 				13C432A0299DD57A0085EDE5 /* HomeView.swift in Sources */,
 				13C43295299DD4D80085EDE5 /* CoinDataService.swift in Sources */,
