@@ -14,6 +14,7 @@ class HomeViewModel: ObservableObject {
     @Published var allCoins: [CoinModel] = []
     @Published var portfolioCoins: [CoinModel] = []
     @Published var searchText: String = ""
+    @Published var isLoading: Bool = false
     
     private let portfolioDataService = PortfolioDataService()
     private let coinDataService = CoinDataSevice()
@@ -50,7 +51,8 @@ class HomeViewModel: ObservableObject {
         
         // UPDATE MARKET DATA
         marketDataService.$marketData
-            .map{ (marketDataModel) -> [StatisticsModel] in
+            .combineLatest($portfolioCoins)
+            .map{ (marketDataModel, portfolioCoins) -> [StatisticsModel] in
                 var stats: [StatisticsModel] = []
                 
                 guard let data = marketDataModel else {
@@ -59,7 +61,21 @@ class HomeViewModel: ObservableObject {
                 let marketCap = StatisticsModel(title: "Market Cap", value: data.marketCap,percentageChange: data.marketCapChangePercentage24HUsd)
                 let volume = StatisticsModel(title: "24h Volume", value: data.volume)
                 let btcDominance = StatisticsModel(title: "BTC Dominance", value: data.btcDominance)
-                let portfolio = StatisticsModel(title: "Porfolio Value", value: "$0.00 ",percentageChange: 0)
+                
+                let portfolioValue = portfolioCoins.map({$0.currentHoldingsValue})
+                    .reduce(0, +)
+                
+                let previousValue = portfolioCoins.map { (coin) -> Double in
+                    let currentValue = coin.currentHoldingsValue
+                    let percentChange = coin.priceChangePercentage24H! / 100
+                    let previousValue = currentValue / (1 + percentChange)
+                    return previousValue
+                }
+                    .reduce(0, +)
+                
+                let percentageChange = ((portfolioValue - previousValue) / previousValue) * 100
+                
+                let portfolio = StatisticsModel(title: "Porfolio Value", value:portfolioValue.asCurrencyWith6Decimals() ,percentageChange: percentageChange)
                 
                 stats.append(contentsOf: [
                     marketCap,
@@ -71,6 +87,7 @@ class HomeViewModel: ObservableObject {
             }
             .sink { [weak self] (returnedStats) in
                 self?.stadistics = returnedStats
+                self?.isLoading = false
             }
             .store(in: &cancel)
             
@@ -94,5 +111,11 @@ class HomeViewModel: ObservableObject {
    
      func UpdatePortfolio(coin: CoinModel, amount: Double) {
         portfolioDataService.UpdatePortfolio(coin: coin, amount: amount)
+    }
+    
+    func ReloadData() {
+        isLoading = true
+        coinDataService.GetCoins()
+        marketDataService.GetData()
     }
 }

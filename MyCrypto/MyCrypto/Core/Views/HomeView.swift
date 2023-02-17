@@ -106,6 +106,9 @@ extension HomeView {
             }
         }
         .listStyle(PlainListStyle())
+        .refreshable {
+            vm.ReloadData()
+        }
         
     }
     
