@@ -44,35 +44,30 @@ import Foundation
  
  */
 
-struct NewsModel: Identifiable, Codable {
+struct GlobalData: Codable {
    
-    var id = UUID().uuidString
-    let data: [Data]?
-    
+    let articles: [NewsModel]?
     
 }
 
 
-struct Data: Codable {
-    let author, title, description: String?
-    let url: String?
-    let source: String?
-    let image: String?
-    let category, language, country: String?
-    let publishedAt: Date?
+struct NewsModel: Codable , Hashable {
+    
+        let author: String?
+        let title: String
+        let description: String?
+        let url: String?
+        let urlToImage: String?
+
     
     enum CodingKeys: String, CodingKey {
         case author
         case title
         case description
         case url
-        case source
-        case image
-        case category
-        case language
-        case country
-        case publishedAt = "published_at"
+        case urlToImage
     }
+    
 }
 
 

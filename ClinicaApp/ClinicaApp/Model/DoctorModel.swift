@@ -16,18 +16,28 @@ struct DoctorModel: Identifiable, Codable {
     let gender: Gender
     let email: String
     let number: String
-    let birthday: Date
+    let birthday: String
     let salary: Double
-    let specialization: Specialization
+    let specialization: String
+    let pricePerBook : Int
     
     
     enum Gender: Codable {
         case female
         case male
     }
-    enum Specialization : Codable{
-        case cardiologist
-        case pediatrist
-        case ophthalmologist
+    
+    init(json: [String: Any]){
+        self.name = json["name"] as? String ?? ""
+        self.lastName = json["lastName"] as? String ?? ""
+        self.dni = json["dni"] as? String ?? ""
+        self.gender = json["gender"] as? Gender ?? .male
+        self.email = json["email"] as? String ?? ""
+        self.number = json["number"] as? String ?? ""
+        self.birthday = json["birthday"] as? String ?? ""
+        self.salary = json["salary"] as? Double ?? 0.0
+        self.specialization = json["specialization"] as? String ?? ""
+        self.pricePerBook = json["pricePerBook"] as? Int ?? 50
     }
+    
 }

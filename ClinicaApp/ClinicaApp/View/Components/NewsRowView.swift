@@ -8,53 +8,58 @@
 import SwiftUI
 
 struct NewsRowView: View {
+    
+    @State var isLiked: Bool = false
+    
+    let new: NewsModel
     var body: some View {
         
-        VStack{
-         
+        VStack(){
             HStack{
-                Circle()
-                    .frame(width: 30,height: 30)
-                Text("Title")
+                Text(new.title)
                     .font(.headline)
-                Spacer()
-                Button {
-                    
-                } label: {
-                    Image(systemName: "ellipsis")
-                }
+                    .padding()
             }
-            .padding()
             
             VStack{
-                PhotoImageView()
-                Text("Description: asdasdasdasdasd asdasd asd asd asdasdasd aasdasd asdas asdasd asd")
+                Link(destination: URL(string: new.url ?? "")!) {
+                    PhotoImageView(new: new)
+                        .scaledToFit()
+                }
+                        
+                Text(new.description ?? "")
                     .font(.caption)
+                    .padding(.leading)
+                    .padding(.trailing)
             }
-            
-            HStack(spacing: 10){
+            HStack{
                 Button {
-                    
+                    isLiked.toggle()
                 } label: {
-                    Image(systemName: "hand.thumbsup")
-                    Text("Like")
+                    HStack{
+                        Image(systemName: "hand.thumbsup")
+                            .foregroundColor(isLiked ? .orange : .accentColor)
+                        Text("Like")
+                            .foregroundColor(isLiked ? .orange : .accentColor)
+                    }
                         
                 }
+                .padding()
                 Spacer()
-                Button {
-                    
-                } label: {
-                    Image(systemName: "square.and.arrow.up")
-                    Text("Share")
-                }
+                ShareLink("Share", item: new.url ?? "")
+                    .padding()
             }
-            .padding()
         }
     }
 }
 
 struct NewsRowView_Previews: PreviewProvider {
     static var previews: some View {
-        NewsRowView()
+        NewsRowView(new: dev.info)
     }
+}
+
+extension NewsRowView {
+    
+   
 }

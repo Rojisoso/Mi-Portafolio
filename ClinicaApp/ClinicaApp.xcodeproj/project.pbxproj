@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13C0C0C029A7FCEC008AED09 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C0C0BF29A7FCEC008AED09 /* ProfileViewModel.swift */; };
+		13C0C0C229A7FEE0008AED09 /* BookAppoinmentDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C0C0C129A7FEE0008AED09 /* BookAppoinmentDataService.swift */; };
+		13C0C0C429A8515C008AED09 /* +View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C0C0C329A8515C008AED09 /* +View.swift */; };
+		13C0C0C729A8545A008AED09 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 13C0C0C629A8545A008AED09 /* GoogleSignIn */; };
+		13C0C0C929A8545A008AED09 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 13C0C0C829A8545A008AED09 /* GoogleSignInSwift */; };
 		13C432D4299F12130085EDE5 /* ClinicaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432D3299F12130085EDE5 /* ClinicaAppApp.swift */; };
 		13C432D8299F12150085EDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C432D7299F12150085EDE5 /* Assets.xcassets */; };
 		13C432DB299F12150085EDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C432DA299F12150085EDE5 /* Preview Assets.xcassets */; };
@@ -22,9 +27,34 @@
 		13C432FA29A005B60085EDE5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432F929A005B60085EDE5 /* Color.swift */; };
 		13C432FC29A00DBB0085EDE5 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432FB29A00DBB0085EDE5 /* PreviewProvider.swift */; };
 		13C432FE29A00F6C0085EDE5 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432FD29A00F6C0085EDE5 /* NewsModel.swift */; };
+		13C4330029A012620085EDE5 /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C432FF29A012620085EDE5 /* NetManager.swift */; };
+		13C4330229A013560085EDE5 /* NewsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4330129A013560085EDE5 /* NewsDataService.swift */; };
+		13C4330429A016B30085EDE5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4330329A016B30085EDE5 /* HomeViewModel.swift */; };
+		13C4330629A021E20085EDE5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4330529A021E20085EDE5 /* String.swift */; };
+		13C4330929A072EA0085EDE5 /* NewImageDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4330829A072EA0085EDE5 /* NewImageDataService.swift */; };
+		13C4330B29A0732D0085EDE5 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4330A29A0732D0085EDE5 /* LocalFileManager.swift */; };
+		13C4330D29A074850085EDE5 /* NewImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4330C29A074850085EDE5 /* NewImageViewModel.swift */; };
+		13C4331329A134570085EDE5 /* TitleNewRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4331229A134570085EDE5 /* TitleNewRowView.swift */; };
+		13C4331529A143E20085EDE5 /* BookAppoinmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4331429A143E20085EDE5 /* BookAppoinmentView.swift */; };
+		13C4331829A1560B0085EDE5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 13C4331729A1560B0085EDE5 /* FirebaseAnalytics */; };
+		13C4331A29A1560B0085EDE5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 13C4331929A1560B0085EDE5 /* FirebaseAuth */; };
+		13C4331C29A1560B0085EDE5 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 13C4331B29A1560B0085EDE5 /* FirebaseCrashlytics */; };
+		13C4331E29A1560B0085EDE5 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 13C4331D29A1560B0085EDE5 /* FirebaseDatabase */; };
+		13C4332029A1560B0085EDE5 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 13C4331F29A1560B0085EDE5 /* FirebaseDatabaseSwift */; };
+		13C4332229A1560B0085EDE5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 13C4332129A1560B0085EDE5 /* FirebaseFirestore */; };
+		13C4332429A1560B0085EDE5 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 13C4332329A1560B0085EDE5 /* FirebaseFirestoreSwift */; };
+		13C4332B29A156C50085EDE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13C4332A29A156C50085EDE5 /* GoogleService-Info.plist */; };
+		13C4332D29A1E9170085EDE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4332C29A1E9170085EDE5 /* AppDelegate.swift */; };
+		13C4332F29A1EB5B0085EDE5 /* BookAppoinmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4332E29A1EB5B0085EDE5 /* BookAppoinmentViewModel.swift */; };
+		13C4333129A1EBDC0085EDE5 /* DoctorDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4333029A1EBDC0085EDE5 /* DoctorDataService.swift */; };
+		13C4333329A1ECB30085EDE5 /* SpecializationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4333229A1ECB30085EDE5 /* SpecializationDataService.swift */; };
+		13C4333529A1ECF90085EDE5 /* SpecializationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4333429A1ECF90085EDE5 /* SpecializationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13C0C0BF29A7FCEC008AED09 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		13C0C0C129A7FEE0008AED09 /* BookAppoinmentDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppoinmentDataService.swift; sourceTree = "<group>"; };
+		13C0C0C329A8515C008AED09 /* +View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+View.swift"; sourceTree = "<group>"; };
 		13C432D0299F12130085EDE5 /* ClinicaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClinicaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C432D3299F12130085EDE5 /* ClinicaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicaAppApp.swift; sourceTree = "<group>"; };
 		13C432D7299F12150085EDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +71,22 @@
 		13C432F929A005B60085EDE5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		13C432FB29A00DBB0085EDE5 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		13C432FD29A00F6C0085EDE5 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		13C432FF29A012620085EDE5 /* NetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
+		13C4330129A013560085EDE5 /* NewsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataService.swift; sourceTree = "<group>"; };
+		13C4330329A016B30085EDE5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		13C4330529A021E20085EDE5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		13C4330729A0508C0085EDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		13C4330829A072EA0085EDE5 /* NewImageDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewImageDataService.swift; sourceTree = "<group>"; };
+		13C4330A29A0732D0085EDE5 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		13C4330C29A074850085EDE5 /* NewImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewImageViewModel.swift; sourceTree = "<group>"; };
+		13C4331229A134570085EDE5 /* TitleNewRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleNewRowView.swift; sourceTree = "<group>"; };
+		13C4331429A143E20085EDE5 /* BookAppoinmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppoinmentView.swift; sourceTree = "<group>"; };
+		13C4332A29A156C50085EDE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13C4332C29A1E9170085EDE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13C4332E29A1EB5B0085EDE5 /* BookAppoinmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppoinmentViewModel.swift; sourceTree = "<group>"; };
+		13C4333029A1EBDC0085EDE5 /* DoctorDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDataService.swift; sourceTree = "<group>"; };
+		13C4333229A1ECB30085EDE5 /* SpecializationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecializationDataService.swift; sourceTree = "<group>"; };
+		13C4333429A1ECF90085EDE5 /* SpecializationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecializationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +94,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C0C0C929A8545A008AED09 /* GoogleSignInSwift in Frameworks */,
+				13C4332029A1560B0085EDE5 /* FirebaseDatabaseSwift in Frameworks */,
+				13C0C0C729A8545A008AED09 /* GoogleSignIn in Frameworks */,
+				13C4331C29A1560B0085EDE5 /* FirebaseCrashlytics in Frameworks */,
+				13C4331829A1560B0085EDE5 /* FirebaseAnalytics in Frameworks */,
+				13C4332429A1560B0085EDE5 /* FirebaseFirestoreSwift in Frameworks */,
+				13C4331E29A1560B0085EDE5 /* FirebaseDatabase in Frameworks */,
+				13C4331A29A1560B0085EDE5 /* FirebaseAuth in Frameworks */,
+				13C4332229A1560B0085EDE5 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13C0C0C529A8545A008AED09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		13C432C7299F12130085EDE5 = {
 			isa = PBXGroup;
 			children = (
 				13C432D2299F12130085EDE5 /* ClinicaApp */,
 				13C432D1299F12130085EDE5 /* Products */,
+				13C0C0C529A8545A008AED09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				13C432D3299F12130085EDE5 /* ClinicaAppApp.swift */,
+				13C4332C29A1E9170085EDE5 /* AppDelegate.swift */,
+				13C4332A29A156C50085EDE5 /* GoogleService-Info.plist */,
+				13C4330729A0508C0085EDE5 /* Info.plist */,
 				13C432E5299F12740085EDE5 /* Services */,
 				13C432E4299F12490085EDE5 /* Extensions */,
 				13C432E3299F12450085EDE5 /* Model */,
@@ -99,6 +165,7 @@
 				13C432E6299F128C0085EDE5 /* HomeView.swift */,
 				13C432E8299F14B00085EDE5 /* ProfileView.swift */,
 				13C432F229A000AA0085EDE5 /* NewsView.swift */,
+				13C4331429A143E20085EDE5 /* BookAppoinmentView.swift */,
 				13C432F829A0047F0085EDE5 /* Components */,
 			);
 			path = View;
@@ -107,6 +174,10 @@
 		13C432E2299F123E0085EDE5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				13C4330329A016B30085EDE5 /* HomeViewModel.swift */,
+				13C4330C29A074850085EDE5 /* NewImageViewModel.swift */,
+				13C4332E29A1EB5B0085EDE5 /* BookAppoinmentViewModel.swift */,
+				13C0C0BF29A7FCEC008AED09 /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -118,6 +189,7 @@
 				13C432EE299F1CA50085EDE5 /* DoctorModel.swift */,
 				13C432F0299F1E6A0085EDE5 /* BookAppoinmentModel.swift */,
 				13C432FD29A00F6C0085EDE5 /* NewsModel.swift */,
+				13C4333429A1ECF90085EDE5 /* SpecializationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -127,6 +199,8 @@
 			children = (
 				13C432F929A005B60085EDE5 /* Color.swift */,
 				13C432FB29A00DBB0085EDE5 /* PreviewProvider.swift */,
+				13C4330529A021E20085EDE5 /* String.swift */,
+				13C0C0C329A8515C008AED09 /* +View.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -134,6 +208,13 @@
 		13C432E5299F12740085EDE5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				13C432FF29A012620085EDE5 /* NetManager.swift */,
+				13C4330129A013560085EDE5 /* NewsDataService.swift */,
+				13C4330829A072EA0085EDE5 /* NewImageDataService.swift */,
+				13C4330A29A0732D0085EDE5 /* LocalFileManager.swift */,
+				13C4333029A1EBDC0085EDE5 /* DoctorDataService.swift */,
+				13C4333229A1ECB30085EDE5 /* SpecializationDataService.swift */,
+				13C0C0C129A7FEE0008AED09 /* BookAppoinmentDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -144,6 +225,7 @@
 				13C432F629A0029A0085EDE5 /* PhotoImageView.swift */,
 				13C432F429A0012C0085EDE5 /* NewsRowView.swift */,
 				13C432EA299F1AA00085EDE5 /* ProfileImageView.swift */,
+				13C4331229A134570085EDE5 /* TitleNewRowView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -164,6 +246,17 @@
 			dependencies = (
 			);
 			name = ClinicaApp;
+			packageProductDependencies = (
+				13C4331729A1560B0085EDE5 /* FirebaseAnalytics */,
+				13C4331929A1560B0085EDE5 /* FirebaseAuth */,
+				13C4331B29A1560B0085EDE5 /* FirebaseCrashlytics */,
+				13C4331D29A1560B0085EDE5 /* FirebaseDatabase */,
+				13C4331F29A1560B0085EDE5 /* FirebaseDatabaseSwift */,
+				13C4332129A1560B0085EDE5 /* FirebaseFirestore */,
+				13C4332329A1560B0085EDE5 /* FirebaseFirestoreSwift */,
+				13C0C0C629A8545A008AED09 /* GoogleSignIn */,
+				13C0C0C829A8545A008AED09 /* GoogleSignInSwift */,
+			);
 			productName = ClinicaApp;
 			productReference = 13C432D0299F12130085EDE5 /* ClinicaApp.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +285,10 @@
 				Base,
 			);
 			mainGroup = 13C432C7299F12130085EDE5;
+			packageReferences = (
+				13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				13C4332529A1564E0085EDE5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 13C432D1299F12130085EDE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -207,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C432DB299F12150085EDE5 /* Preview Assets.xcassets in Resources */,
+				13C4332B29A156C50085EDE5 /* GoogleService-Info.plist in Resources */,
 				13C432D8299F12150085EDE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,16 +319,33 @@
 				13C432F1299F1E6A0085EDE5 /* BookAppoinmentModel.swift in Sources */,
 				13C432FC29A00DBB0085EDE5 /* PreviewProvider.swift in Sources */,
 				13C432F329A000AA0085EDE5 /* NewsView.swift in Sources */,
+				13C4330429A016B30085EDE5 /* HomeViewModel.swift in Sources */,
 				13C432FA29A005B60085EDE5 /* Color.swift in Sources */,
 				13C432F529A0012C0085EDE5 /* NewsRowView.swift in Sources */,
+				13C0C0C029A7FCEC008AED09 /* ProfileViewModel.swift in Sources */,
+				13C4331329A134570085EDE5 /* TitleNewRowView.swift in Sources */,
+				13C4330B29A0732D0085EDE5 /* LocalFileManager.swift in Sources */,
+				13C4330229A013560085EDE5 /* NewsDataService.swift in Sources */,
 				13C432F729A0029A0085EDE5 /* PhotoImageView.swift in Sources */,
 				13C432EB299F1AA00085EDE5 /* ProfileImageView.swift in Sources */,
+				13C0C0C229A7FEE0008AED09 /* BookAppoinmentDataService.swift in Sources */,
+				13C4330029A012620085EDE5 /* NetManager.swift in Sources */,
+				13C0C0C429A8515C008AED09 /* +View.swift in Sources */,
+				13C4331529A143E20085EDE5 /* BookAppoinmentView.swift in Sources */,
 				13C432E7299F128C0085EDE5 /* HomeView.swift in Sources */,
+				13C4333329A1ECB30085EDE5 /* SpecializationDataService.swift in Sources */,
 				13C432EF299F1CA50085EDE5 /* DoctorModel.swift in Sources */,
+				13C4330929A072EA0085EDE5 /* NewImageDataService.swift in Sources */,
 				13C432FE29A00F6C0085EDE5 /* NewsModel.swift in Sources */,
 				13C432E9299F14B00085EDE5 /* ProfileView.swift in Sources */,
+				13C4333529A1ECF90085EDE5 /* SpecializationModel.swift in Sources */,
+				13C4333129A1EBDC0085EDE5 /* DoctorDataService.swift in Sources */,
+				13C4332F29A1EB5B0085EDE5 /* BookAppoinmentViewModel.swift in Sources */,
+				13C4330629A021E20085EDE5 /* String.swift in Sources */,
 				13C432ED299F1B4F0085EDE5 /* UserModel.swift in Sources */,
 				13C432D4299F12130085EDE5 /* ClinicaAppApp.swift in Sources */,
+				13C4330D29A074850085EDE5 /* NewImageViewModel.swift in Sources */,
+				13C4332D29A1E9170085EDE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -341,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,11 +477,15 @@
 				DEVELOPMENT_TEAM = Y8NYA4T739;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClinicaApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clinica App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,6 +493,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rojisoso.ClinicaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,11 +513,15 @@
 				DEVELOPMENT_TEAM = Y8NYA4T739;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClinicaApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clinica App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -403,6 +529,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rojisoso.ClinicaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -431,6 +560,73 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		13C4332529A1564E0085EDE5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13C0C0C629A8545A008AED09 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4332529A1564E0085EDE5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		13C0C0C829A8545A008AED09 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4332529A1564E0085EDE5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		13C4331729A1560B0085EDE5 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		13C4331929A1560B0085EDE5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		13C4331B29A1560B0085EDE5 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		13C4331D29A1560B0085EDE5 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		13C4331F29A1560B0085EDE5 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		13C4332129A1560B0085EDE5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		13C4332329A1560B0085EDE5 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C4331629A1560B0085EDE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 13C432C8299F12130085EDE5 /* Project object */;
 }
