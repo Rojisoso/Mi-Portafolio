@@ -1,14 +1,13 @@
 //
-//  +view.swift
-//  PasswordGenerator
+//  +View.swift
+//  ClinicaApp
 //
-//  Created by Luis Vienrich on 7/02/23.
+//  Created by Luis Vienrich on 23/02/23.
 //
 
 import SwiftUI
 
-
-extension View {
+extension UIApplication {
     func getRootViewController()-> UIViewController{
         guard let screen = UIApplication.shared.connectedScenes.first as? UIWindowScene else{
             return .init()
