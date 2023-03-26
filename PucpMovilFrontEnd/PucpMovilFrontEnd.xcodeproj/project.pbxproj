@@ -13,6 +13,14 @@
 		1399FC1D29CD3FB4003AF5AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC1C29CD3FB4003AF5AC /* HomeView.swift */; };
 		1399FC2029CD44EE003AF5AC /* HorarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC1F29CD44EE003AF5AC /* HorarioView.swift */; };
 		1399FC2229CD5867003AF5AC /* HorarioRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC2129CD5867003AF5AC /* HorarioRowView.swift */; };
+		1399FC2429D00CDF003AF5AC /* CursosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC2329D00CDF003AF5AC /* CursosView.swift */; };
+		1399FC2629D00F18003AF5AC /* PagosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC2529D00F18003AF5AC /* PagosView.swift */; };
+		1399FC2829D012B5003AF5AC /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC2729D012B5003AF5AC /* PerfilView.swift */; };
+		1399FC2A29D01B32003AF5AC /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC2929D01B32003AF5AC /* ConfigView.swift */; };
+		1399FC2C29D01E64003AF5AC /* LaunchScreenStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC2B29D01E64003AF5AC /* LaunchScreenStep.swift */; };
+		1399FC2E29D01E90003AF5AC /* LaunchScreenStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC2D29D01E90003AF5AC /* LaunchScreenStateManager.swift */; };
+		1399FC3329D01F0B003AF5AC /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC3229D01F0B003AF5AC /* LaunchScreenView.swift */; };
+		1399FC3529D021F1003AF5AC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399FC3429D021F1003AF5AC /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +31,14 @@
 		1399FC1C29CD3FB4003AF5AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1399FC1F29CD44EE003AF5AC /* HorarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioView.swift; sourceTree = "<group>"; };
 		1399FC2129CD5867003AF5AC /* HorarioRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioRowView.swift; sourceTree = "<group>"; };
+		1399FC2329D00CDF003AF5AC /* CursosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursosView.swift; sourceTree = "<group>"; };
+		1399FC2529D00F18003AF5AC /* PagosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosView.swift; sourceTree = "<group>"; };
+		1399FC2729D012B5003AF5AC /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		1399FC2929D01B32003AF5AC /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		1399FC2B29D01E64003AF5AC /* LaunchScreenStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenStep.swift; sourceTree = "<group>"; };
+		1399FC2D29D01E90003AF5AC /* LaunchScreenStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenStateManager.swift; sourceTree = "<group>"; };
+		1399FC3229D01F0B003AF5AC /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		1399FC3429D021F1003AF5AC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				1399FC0E29CD3F4A003AF5AC /* PucpMovilFrontEndApp.swift */,
+				1399FC2F29D01EC7003AF5AC /* LaunchScreen */,
 				1399FC1E29CD44A3003AF5AC /* Views */,
 				1399FC1229CD3F4B003AF5AC /* Assets.xcassets */,
 				1399FC1429CD3F4B003AF5AC /* Preview Content */,
+				1399FC3429D021F1003AF5AC /* Color.swift */,
 			);
 			path = PucpMovilFrontEnd;
 			sourceTree = "<group>";
@@ -77,8 +95,22 @@
 				1399FC1C29CD3FB4003AF5AC /* HomeView.swift */,
 				1399FC1F29CD44EE003AF5AC /* HorarioView.swift */,
 				1399FC2129CD5867003AF5AC /* HorarioRowView.swift */,
+				1399FC2329D00CDF003AF5AC /* CursosView.swift */,
+				1399FC2529D00F18003AF5AC /* PagosView.swift */,
+				1399FC2729D012B5003AF5AC /* PerfilView.swift */,
+				1399FC2929D01B32003AF5AC /* ConfigView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1399FC2F29D01EC7003AF5AC /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1399FC2B29D01E64003AF5AC /* LaunchScreenStep.swift */,
+				1399FC2D29D01E90003AF5AC /* LaunchScreenStateManager.swift */,
+				1399FC3229D01F0B003AF5AC /* LaunchScreenView.swift */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1399FC2C29D01E64003AF5AC /* LaunchScreenStep.swift in Sources */,
 				1399FC1D29CD3FB4003AF5AC /* HomeView.swift in Sources */,
+				1399FC2E29D01E90003AF5AC /* LaunchScreenStateManager.swift in Sources */,
+				1399FC2829D012B5003AF5AC /* PerfilView.swift in Sources */,
 				1399FC0F29CD3F4A003AF5AC /* PucpMovilFrontEndApp.swift in Sources */,
+				1399FC3529D021F1003AF5AC /* Color.swift in Sources */,
 				1399FC2229CD5867003AF5AC /* HorarioRowView.swift in Sources */,
+				1399FC2A29D01B32003AF5AC /* ConfigView.swift in Sources */,
+				1399FC2629D00F18003AF5AC /* PagosView.swift in Sources */,
+				1399FC3329D01F0B003AF5AC /* LaunchScreenView.swift in Sources */,
+				1399FC2429D00CDF003AF5AC /* CursosView.swift in Sources */,
 				1399FC2029CD44EE003AF5AC /* HorarioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,11 +326,14 @@
 				DEVELOPMENT_TEAM = Y8NYA4T739;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PucpMóvil";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,9 +341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rojisoso.PucpMovilFrontEnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,11 +361,14 @@
 				DEVELOPMENT_TEAM = Y8NYA4T739;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PucpMóvil";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,9 +376,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Rojisoso.PucpMovilFrontEnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

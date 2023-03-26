@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct PucpMovilFrontEndApp: App {
+    
+    @StateObject var launchScreenState = LaunchScreenStateManager()
+    
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            ZStack {
+                HomeView()
+                if launchScreenState.state != .finished {
+                    LaunchScreenView()
+                }
+            }.environmentObject(launchScreenState)
         }
     }
 }
