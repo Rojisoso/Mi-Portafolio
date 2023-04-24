@@ -74,9 +74,9 @@
 ### ***<div align="center">Crypto App🏨🚑</div>***  
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto1.png" align="" height="" width="33%" />
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto2.png" align="" height="" width="33%" />  
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto3.png" align="" height="" width="33%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto1.png" align="" height="" width="30%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto2.png" align="" height="" width="30%" />  
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto3.png" align="" height="" width="30%" />
 </div>
 
 ### ***<div align="center">Password Generator🔐</div>***  
