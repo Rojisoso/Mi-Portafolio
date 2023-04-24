@@ -84,7 +84,7 @@
 ## My Projects 
 #### ***<div align="center">Clinica App🏥🚑</div>***  
   
-
+<div align="center">
 <img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica1.png" align="left" height="250" width="" />  
   
 
@@ -95,9 +95,8 @@
   
 
 <img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica4.png" align="left" height="250" width="" />  
-  
-<a>
-</a>
+</div>  
+
 #### ***<div align="center">Crypto App💰📈</div>***  
   
 
