@@ -59,36 +59,49 @@
 
 <br/>  
 
+
 ## My Projects 
 
-#### ***<div align="center">Clinica App🏥🚑</div>***  
+### ***<div align="center">Clinica App🏥🚑</div>***  
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica1.png" align="" height="" width="24%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica2.png" align="" height="" width="24%" />  
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica3.png" align="" height="" width="24%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica4.png" align="" height="" width="24%" />
+</div>
+
+### ***<div align="center">Crypto App🏨🚑</div>***  
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto1.png" align="" height="" width="33%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto2.png" align="" height="" width="33%" />  
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto3.png" align="" height="" width="33%" />
+</div>
+
+### ***<div align="center">Password Generator🔐</div>***  
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/GeneratorApp.png" align="" height="" width="24%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/GeneratorApp2.png" align="" height="" width="24%" />  
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/GeneratorApp3.png" align="" height="" width="24%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/GeneratorApp4.png" align="" height="" width="24%" />
+</div>
+
+### ***<div align="center">Pucp Movil App📲</div>***  
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/PUCP1.png" align="" height="" width="24%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/PUCP2.png" align="" height="" width="24%" />  
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/PUCP3.png" align="" height="" width="24%" />
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/PUCP4.png" align="" height="" width="24%" />
+</div>
 
 <br/>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica1.png" align="left" height="250" width="" />  
-  
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica2.png" align="left" height="250" width="" />  
-  
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica3.png" align="left" height="250" width="" />  
-  
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica4.png" align="left" height="250" width="" />  
-</div>  
 
-<br/>
-
-#### ***<div align="center">Crypto App💰📈</div>***  
- <br/>   
-<div align="center">
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto1.png" align="left" height="250" width="" />  
-
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto2.png" align="left" height="250" width="" />  
-  
-<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto3.png" align="left" height="250" width="" />  
-<div/>
-<br/>  
-  
 ## Github Stats  
+  
 <table><tr><td valign="top" width="50%">
 
 <img src="https://github-readme-stats.vercel.app/api?username=rojisoso&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 90%" />
@@ -101,7 +114,6 @@
 
 <br/>   
 
-<br/>  
 
 
   
