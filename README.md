@@ -81,19 +81,37 @@
 
 <br/>  
 
+## My Projects 
+#### ***<div align="center">Clinica App🏥🚑</div>***  
+  
+
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica1.png" align="left" height="250" width="" />  
+  
+
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica2.png" align="left" height="250" width="" />  
+  
+
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica3.png" align="left" height="250" width="" />  
+  
+
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/Clinica4.png" align="left" height="250" width="" />  
+  
+
+#### ***<div align="center">Crypto App💰📈</div>***  
+  
+
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto1.png" align="left" height="250" width="" />  
+  
+
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto2.png" align="left" height="250" width="" />  
+  
+
+<img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto3.png" align="left" height="250" width="" />  
 
 ## Github Stats  
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=rojisoso&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
 
 <br/>  
-
-
-## My Projects 
-  
-
-<br/>  
-
-  
 
 <br/>  
 
