@@ -103,7 +103,7 @@
 
 #### ***<div align="center">Crypto App💰📈</div>***  
   
-
+<div align="center">
 <img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto1.png" align="left" height="250" width="" />  
   
 
@@ -111,9 +111,11 @@
   
 
 <img src="https://raw.githubusercontent.com/Rojisoso/Rojisoso.github.io/main/Imagenes/MyCrypto3.png" align="left" height="250" width="" />  
+<div/>
 
+  
 ## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=rojisoso&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=rojisoso&show_icons=true&count_private=true&hide_border=true" align="center" /></div> 
 
 <br/>  
 
